@@ -236,12 +236,13 @@
                 </div>
 
                 <div class="faq pad20"><b class="bold primary-color launchaco-builder-hoverable">
-                   How to activate your account
-                </b>
-                <p class="paragraph secondary-color launchaco-builder-hoverable">
-                    Just make sure your logged into your browser with the same email you paid for Remove my P**n with.
-                </p>
-            </div>
+                        How to activate your account
+                    </b>
+                    <p class="paragraph secondary-color launchaco-builder-hoverable">
+                        Just make sure your logged into your browser with the same email you paid for Remove my P**n
+                        with.
+                    </p>
+                </div>
                 <div class="faq pad20"><b class="bold primary-color launchaco-builder-hoverable">
                         Contact Us
                     </b>
@@ -274,7 +275,8 @@
 
 <!-- Load Stripe.js on your website. -->
 <script src="https://js.stripe.com/v3"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="/assets/js/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
 <script>
     (function () {
@@ -317,16 +319,17 @@
 
     var paramater = getUrlVars()["payment"];
 
-    if(paramater === 'success'){
-        toastr.success('You successfully paid. Thank you for your support.', 'Remove my P**n', {timeOut: 5000})
+    console.log(paramater);
+    if (paramater === 'success') {
+        toastr.success('You successfully paid. Thank you for your support.', 'Remove my P**n', {
+            timeOut: 5000
+        })
     }
-    if(paramater === 'canceled'){
-        toastr.error('Your payment was canceled.', 'Remove my P**n', {timeOut: 5000})
-}
-
-
-
-
+    if (paramater === 'canceled') {
+        toastr.error('Your payment was canceled.', 'Remove my P**n', {
+            timeOut: 5000
+        })
+    }
 </script>
 
 </html>
