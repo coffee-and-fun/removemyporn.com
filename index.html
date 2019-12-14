@@ -6,16 +6,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Remove my porn is a privacy focused Chrome extension that removes over 15,000 NSFW websites and terms from your history in one click.">
-    <meta name="keywords" content="remove porn from browser, remove porn from chrome, remove porn from edge, remove porn from firefox">
+    <meta name="description"
+        content="Remove my porn is a privacy focused Chrome extension that removes over 15,000 NSFW websites and terms from your history in one click.">
+    <meta name="keywords"
+        content="remove porn from browser, remove porn from chrome, remove porn from edge, remove porn from firefox">
     <meta property="og:url" content="https://removemyporn.com/">
     <meta property="og:title" content="Remove my Porn - For times when you forget to use incognito">
-    <meta property="og:description" content="Remove my porn is a privacy focused Chrome extension that removes over 15,000 NSFW websites and terms from your history in one click.">
+    <meta property="og:description"
+        content="Remove my porn is a privacy focused Chrome extension that removes over 15,000 NSFW websites and terms from your history in one click.">
     <meta property="og:image" content="https://removemyporn.com/assets/images/cover-facebook.jpg">
     <meta property="og:type" content="website">
     <meta name="twitter:url" content="https://removemyporn.com/">
     <meta name="twitter:title" content="Remove my Porn">
-    <meta name="twitter:description" content="Remove my porn is a privacy focused Chrome extension that removes over 15,000 NSFW websites and terms from your history in one click.">
+    <meta name="twitter:description"
+        content="Remove my porn is a privacy focused Chrome extension that removes over 15,000 NSFW websites and terms from your history in one click.">
     <meta name="twitter:image:src" content="https://removemyporn.com/assets/images/cover-twitter.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@removemyporn">
@@ -26,7 +30,6 @@
 
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="Remove my Shame is a privacy focused Chrome extension that removes over 15,000 NSFW websites and terms from your history in one click.">
 
     <link rel="shortcut icon" href="https://www.launchaco.com/static/favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
@@ -213,7 +216,8 @@
                     </div>
                     <button id="checkout-button-sku_GM90b9Aye3tpwj"
                         class="button mobile-text-center mt10 launchaco-builder-hoverable button__full mobile-text-center accent-bg primary-color">
-                        <span> Buy it now! </span></button>
+                        <span> Buy it now! </span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -226,8 +230,9 @@
                 <h3 class="heading primary-color launchaco-builder-hoverable">
                     Frequently Asked Questions
                 </h3>
-                <p class="subheading secondary-color mt20 launchaco-builder-hoverable">Can't find an answer? Don't
-                    hesitate to reach out!.</p>
+                <p class="subheading secondary-color mt20 launchaco-builder-hoverable">
+                    Can't find an answer? Don't hesitate to reach out!.
+                </p>
             </div>
         </div>
         <div class="container">
@@ -245,7 +250,8 @@
                         information at all and have no access to it.
                     </p>
                 </div>
-                <div class="faq pad20"><b class="bold primary-color launchaco-builder-hoverable">
+                <div class="faq pad20">
+                    <b class="bold primary-color launchaco-builder-hoverable">
                         Privacy and 15,000 database.
                     </b>
                     <p class="paragraph secondary-color launchaco-builder-hoverable">
@@ -255,7 +261,8 @@
                     </p>
                 </div>
 
-                <div class="faq pad20"><b class="bold primary-color launchaco-builder-hoverable">
+                <div class="faq pad20">
+                    <b class="bold primary-color launchaco-builder-hoverable">
                         How to activate your account
                     </b>
                     <p class="paragraph secondary-color launchaco-builder-hoverable">
@@ -263,7 +270,8 @@
                         with.
                     </p>
                 </div>
-                <div class="faq pad20"><b class="bold primary-color launchaco-builder-hoverable">
+                <div class="faq pad20">
+                    <b class="bold primary-color launchaco-builder-hoverable">
                         Contact Us
                     </b>
                     <p class="paragraph secondary-color launchaco-builder-hoverable">
@@ -278,78 +286,22 @@
 
 
 
-
+    <!-- Footer -->
     <footer id="footer-4" class="section text-center coral-white" sitemeta="[object Object]" activepage="Landing">
         <div class="container col-12">
-            <!---->
-            <div><a href="https://twitter.com/removemyp**n" target="_blank" class="socialicons accent-bg twitter"></a><a
-                    href="https://facebook.com/removemyp**n" target="_blank" class="socialicons accent-bg facebook"></a>
-                <!----><a href="https://instagram.com/removemyp**n" target="_blank"
-                    class="socialicons accent-bg instagram"></a></div>
-            <!---->
+            <a href="https://twitter.com/removemyp**n" target="_blank" class="socialicons accent-bg twitter"></a>
+            <a href="https://facebook.com/removemyp**n" target="_blank" class="socialicons accent-bg facebook"></a>
+            <a href="https://instagram.com/removemyp**n" target="_blank" class="socialicons accent-bg instagram"></a>
         </div>
     </footer>
 
 </body>
 
 
-<!-- Load Stripe.js on your website. -->
+<!-- Load Javascript into the site. -->
 <script src="https://js.stripe.com/v3"></script>
 <script src="/assets/js/jquery.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-
-<script>
-    (function () {
-        var stripe = Stripe('pk_live_DG2IMIp7QYpSiuiTFvQI7ZFW00OEARkk0s');
-
-        var checkoutButton = document.getElementById('checkout-button-sku_GM90b9Aye3tpwj');
-        checkoutButton.addEventListener('click', function () {
-            // When the customer clicks on the button, redirect
-            // them to Checkout.
-            toastr.info('Loading Stripe...');
-            stripe.redirectToCheckout({
-                    items: [{
-                        sku: 'sku_GM90b9Aye3tpwj',
-                        quantity: 1
-                    }],
-                    // Do not rely on the redirect to the successUrl for fulfilling
-                    // purchases, customers may not always reach the success_url after
-                    // a successful payment.
-                    // Instead use one of the strategies described in
-                    // https://stripe.com/docs/payments/checkout/fulfillment
-                    successUrl: 'https://removemyporn.com?payment=success',
-                    cancelUrl: 'https://removemyporn.com/?payment=canceled',
-                })
-                .then(function (result) {
-                    if (result.error) {
-                        toastr.error(result.error.message);
-                    }
-                });
-        });
-    })();
-
-    function getUrlVars() {
-        var vars = {};
-        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
-            vars[key] = value;
-        });
-        return vars;
-    }
-
-
-    var paramater = getUrlVars()["payment"];
-
-    console.log(paramater);
-    if (paramater === 'success') {
-        toastr.success('You successfully paid. Thank you for your support.', 'Remove my P**n', {
-            timeOut: 5000
-        })
-    }
-    if (paramater === 'canceled') {
-        toastr.error('Your payment was canceled.', 'Remove my P**n', {
-            timeOut: 5000
-        })
-    }
-</script>
+<script src="/assets/js/toastr.js"></script>
+<script src="/assets/js/site.js"></script>
 
 </html>
