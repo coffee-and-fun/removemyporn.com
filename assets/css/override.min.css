@@ -1,5 +1,10 @@
-footer{
+footer {
     background-color: #222b37 !important;
-    padding: 2rem  !important;
-    color: #fff  !important;
+    padding: 2rem !important;
+    color: #fff !important;
+}
+
+
+html {
+    scroll-behavior: smooth;
 }
