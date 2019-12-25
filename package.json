@@ -1,0 +1,44 @@
+{
+  "name": "removemyporn",
+  "version": "1.0.0",
+  "description": "website for removemyporn",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "http-server docs",
+    "clean" : "purgecss --css app/assets/css/styles.css --content app/index.html --out docs/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertJGabriel/removemyporn.git"
+  },
+  "author": "Robert James Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertJGabriel/removemyporn/issues"
+  },
+  "homepage": "https://github.com/RobertJGabriel/removemyporn#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.12.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "purgecss": "^1.4.2",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "workbox-webpack-plugin": "^4.3.1"
+  },
+  "dependencies": {
+    "html-critical-webpack-plugin": "^2.1.0",
+    "html-webpack-template": "^6.2.0",
+    "notyf": "^3.1.0",
+    "toastr": "^2.1.4",
+    "webpack-google-tag-manager-plugin": "^1.0.3"
+  }
+}

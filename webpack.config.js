@@ -1,0 +1,80 @@
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
+const {
+  CleanWebpackPlugin
+} = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const WorkboxPlugin = require('workbox-webpack-plugin');
+const PurifyCSSPlugin = require('purifycss-webpack');
+module.exports = {
+  mode: 'production',
+  context: __dirname + '/app/',
+  entry: {
+    app: './assets/js/index.js',
+
+  },
+  plugins: [
+    // new CleanWebpackPlugin(['dist/*']) for < v2 versions of CleanWebpackPlugin
+    new CleanWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      inject: false,
+      template: './index.html'
+     
+    }),
+    new CopyPlugin([
+      { from: 'assets/img', to: 'assets/img/' },
+      { from: 'CNAME', to: '' },
+
+    ]),
+    new MiniCssExtractPlugin(),
+    
+    new WorkboxPlugin.GenerateSW({
+      // these options encourage the ServiceWorkers to get in there fast
+      // and not allow any straggling "old" SWs to hang around
+      importsDirectory: '',
+      offlineGoogleAnalytics: true,
+      clientsClaim: true,
+      skipWaiting: true,
+    }),
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+      },
+      {
+        test: /\.(jpe?g|png|gif)$/,
+        loader: 'url-loader',
+        options: {
+          // Images larger than 10 KB won’t be inlined
+          limit: 10 * 1024
+        }
+      },
+      {
+        test: /\.svg$/,
+        loader: 'svg-url-loader',
+        options: {
+          // Images larger than 10 KB won’t be inlined
+          limit: 10 * 1024,
+          // Remove quotes around the encoded URL –
+          // they’re rarely useful
+          noquotes: true,
+        }
+      },
+      {
+        test: /\.(png|jpe?g|gif|xml|ico|svg|webmanifest)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      }
+    ],
+  },
+  output: {
+    filename: '[name].bundle.js',
+    path: path.resolve(__dirname, 'docs'),
+  },
+};

@@ -37,13 +37,9 @@
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <link rel="shortcut icon" href="assets//img//social/favicon.ico" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/social/favicon.ico" />
 
-    <link rel="stylesheet" href="assets/css/styles.min.css">
-    <link rel="stylesheet" href="assets/css/override.min.css">
-
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <link rel="stylesheet" href="app.css">
 
 </head>
 
@@ -54,20 +50,20 @@
             <div class="container-lrg">
                 <div class="flex col-12 spread">
                     <a href="/" class="logo launchaco-builder-hoverable logo">
-                        <img
-                            src="https://cdn.launchaco.com/images/45348924-2ee5-40d8-bdd8-947c20addf2c.png"
+                        <img src="assets/img/logos/256.png"
                             alt="Remove my PornCompany Logo">
-                    </a> 
-                    
+                    </a>
+
                     <a href="#main-menu" id="menu" class="menu-toggle">
                         <b class="nav-link mr0 secondary-color">☰</b>
                     </a>
                     <nav id="main-menu" role="navigation" class="main-menu">
                         <a href="#" id="main-menu-close" class="menu-close">
                             <span class="bold">✕</span>
-                        </a> 
-                        <a href="#cta-1" class="nav-link secondary-color">Features</a> 
-                        <a href="https://chrome.google.com/webstore/detail/clean-my-history-remove-n/iocknhfjfkmjecgighghbmmbjgbnhfpp" class="nav-link secondary-color">Get it now</a>
+                        </a>
+                        <a href="#cta-1" class="nav-link secondary-color">Features</a>
+                        <a href="https://chrome.google.com/webstore/detail/clean-my-history-remove-n/iocknhfjfkmjecgighghbmmbjgbnhfpp"
+                            class="nav-link secondary-color">Get it now</a>
                     </nav>
                 </div>
             </div>
@@ -314,22 +310,20 @@
 
 <!-- Load Javascript into the site. -->
 <script src="https://js.stripe.com/v3"></script>
-<script src="/assets/js/jquery.js"></script>
-<script src="/assets/js/toastr.js"></script>
-<script src="/assets/js/site.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-39444052-23"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
+<script src="app.bundle.js"></script>
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
 
-    gtag('config', 'UA-39444052-23');
+<script type="text/javascript">
+    window.GoogleAnalyticsObject = 'ga';
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-39444052-23', 'auto');
+    ga('send', 'pageview');
 </script>
-
+<script async defer src="https://www.google-analytics.com/analytics.js" type="text/javascript"></script>
 
 <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="729a2276-896d-4ae3-a8b7-ac7b0347a3ef";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 
