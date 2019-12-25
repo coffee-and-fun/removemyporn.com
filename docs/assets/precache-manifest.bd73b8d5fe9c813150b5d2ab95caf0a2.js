@@ -104,7 +104,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/img/social/site.webmanifest"
   },
   {
-    "revision": "e880ab1f22e7f11cc7edcb4af44588cc",
+    "revision": "b4b24d99963c7ce885a15eda3fea1880",
     "url": "index.html"
   }
 ]);
