@@ -32,7 +32,7 @@ module.exports = {
     new WorkboxPlugin.GenerateSW({
       // these options encourage the ServiceWorkers to get in there fast
       // and not allow any straggling "old" SWs to hang around
-      importsDirectory: '',
+      importsDirectory: 'assets/',
       offlineGoogleAnalytics: true,
       clientsClaim: true,
       skipWaiting: true,
