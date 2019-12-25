@@ -8,3 +8,7 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+
+.pink{
+    background-color: rgba(220, 51, 99, 1) !important;
+}
