@@ -24,3 +24,18 @@ html {
 .coral-white .svg-fill {
     fill: #dc3363 !important;
 }
+
+
+.feature_check{
+    width: 35px;
+}
+
+.check{
+    margin-right: 10px;
+}
+
+.large_font{
+    font-size: 2rem;
+    fill: rgba(220, 51, 99, 1);
+    color: rgba(220, 51, 99, 1);
+}

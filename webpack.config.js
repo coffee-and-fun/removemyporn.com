@@ -25,6 +25,9 @@ module.exports = {
     new CopyPlugin([
       { from: 'assets/img', to: 'assets/img/' },
       { from: 'CNAME', to: '' },
+      { from: '../node_modules/@fortawesome/fontawesome-free/svgs/solid/', to: 'assets/svgs' },
+      { from: '../node_modules/@fortawesome/fontawesome-free/svgs/brands/', to: 'assets/svgs' },
+      { from: '../node_modules/@fortawesome/fontawesome-free/svgs/regular/', to: 'assets/svgs' },
 
     ]),
     new MiniCssExtractPlugin(),

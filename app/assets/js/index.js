@@ -8,7 +8,7 @@ import {
 } from 'notyf';
 import 'notyf/notyf.min.css'; // for React and Vue
 const notyf = new Notyf();
-
+import '@fortawesome/fontawesome-free/js/all';
 
 async function load() {
     let paramater = getUrlVars()["payment"];
