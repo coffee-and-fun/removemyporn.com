@@ -4,11 +4,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "CNAME"
   },
   {
-    "revision": "545a1ba5b74612bda13d",
+    "revision": "fc758bb48625b5f31c15",
     "url": "app.bundle.js"
   },
   {
-    "revision": "545a1ba5b74612bda13d",
+    "revision": "fc758bb48625b5f31c15",
     "url": "app.css"
   },
   {
@@ -104,7 +104,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/img/social/site.webmanifest"
   },
   {
-    "revision": "1c5d8dd4ec41875f912900da80a2fe0f",
+    "revision": "92a8ec4095197ff61556a5669d4c4bf9",
     "url": "index.html"
   }
 ]);

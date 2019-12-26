@@ -9,14 +9,18 @@ html {
     scroll-behavior: smooth;
 }
 
-.pink{
+.pink {
     background-color: rgba(220, 51, 99, 1) !important;
 }
 
 
-.footer_text{
+.footer_text {
     background-color: #000;
     color: #fff;
     text-align: center;
     padding: 1rem;
+}
+
+.coral-white .svg-fill {
+    fill: #dc3363 !important;
 }
