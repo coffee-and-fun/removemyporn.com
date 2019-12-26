@@ -1,7 +1,11 @@
-import {getUrlVars } from './core/features.js';
+import {
+    getUrlVars
+} from './core/features.js';
 import '../css/override.css';
 import '../css/styles.css';
-import { Notyf } from 'notyf';
+import {
+    Notyf
+} from 'notyf';
 import 'notyf/notyf.min.css'; // for React and Vue
 const notyf = new Notyf();
 
@@ -18,7 +22,7 @@ async function load() {
 
     (function () {
         var stripe = Stripe('pk_live_DG2IMIp7QYpSiuiTFvQI7ZFW00OEARkk0s');
-    
+
         var checkoutButton = document.getElementById('checkout-button-sku_GM90b9Aye3tpwj');
         checkoutButton.addEventListener('click', function () {
             // When the customer clicks on the button, redirect
@@ -44,8 +48,8 @@ async function load() {
                 });
         });
     })();
-    
-    
+
+
 }
 
 
