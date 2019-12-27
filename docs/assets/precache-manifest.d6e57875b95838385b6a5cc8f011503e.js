@@ -1,5 +1,9 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
+    "revision": "5cce3accc8b79bf68464c1a768386e08",
+    "url": "404.html"
+  },
+  {
     "revision": "4ec9281ebd0296e14a5f665e73002920",
     "url": "CNAME"
   },
@@ -5716,7 +5720,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/svgs/zhihu.svg"
   },
   {
-    "revision": "7f531a5aa8b90a22e48a41acbc36b6de",
+    "revision": "eec4da39806253d647ee6566094da722",
     "url": "index.html"
+  },
+  {
+    "revision": "f46ba55af304a3691468bff1dbbbaaa1",
+    "url": "privacy.html"
+  },
+  {
+    "revision": "4dba689814c43f59e33f2d37f6af5092",
+    "url": "terms.html"
+  },
+  {
+    "revision": "17dc0d1272370f256117baa8c257b630",
+    "url": "updates.html"
+  },
+  {
+    "revision": "f338e91c466d770bec453f0c1b3c8ade",
+    "url": "welcome.html"
   }
 ]);
