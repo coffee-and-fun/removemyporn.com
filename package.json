@@ -31,6 +31,7 @@
     "purgecss": "^1.4.2",
     "purify-css": "^1.2.5",
     "purifycss-webpack": "^0.7.0",
+    "sitemap-webpack-plugin": "^0.6.0",
     "webpack": "^4.41.4",
     "webpack-cli": "^3.3.10",
     "workbox-webpack-plugin": "^4.3.1"

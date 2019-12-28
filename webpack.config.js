@@ -6,7 +6,15 @@ const {
 } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const WorkboxPlugin = require('workbox-webpack-plugin');
-const PurifyCSSPlugin = require('purifycss-webpack');
+
+const SitemapPlugin = require('sitemap-webpack-plugin').default;
+const paths = [
+  '/terms',
+  '/welcome',
+  '/updates',
+  '/privacy',
+];
+
 module.exports = {
   mode: 'production',
   context: __dirname + '/app/',
@@ -26,6 +34,7 @@ module.exports = {
     new CopyPlugin([
       { from: 'assets/img', to: 'assets/img/' },
       { from: 'CNAME', to: '' },
+      { from: 'robots.txt', to: '' },
       { from: '404.html', to: '' },
       { from: 'privacy.html', to: '' },
       { from: 'terms.html', to: '' },
@@ -37,7 +46,9 @@ module.exports = {
 
     ]),
     new MiniCssExtractPlugin(),
-    
+
+      new SitemapPlugin('https://www.removemyporn.com',paths)
+ ,
     new WorkboxPlugin.GenerateSW({
       // these options encourage the ServiceWorkers to get in there fast
       // and not allow any straggling "old" SWs to hang around
