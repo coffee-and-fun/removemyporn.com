@@ -16,12 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "app.css"
   },
   {
-    "revision": "8dfd4f6e26520ca553d5bcefad369f1b",
+    "revision": "0f977a641c2559b9ca75fc1e334728f7",
     "url": "assets/img/.DS_Store"
   },
   {
     "revision": "9ee909df5bd4abc586b13f9538327265",
     "url": "assets/img/favicon.ico"
+  },
+  {
+    "revision": "a4397a305013f654f179abb8febae3b7",
+    "url": "assets/img/images/.DS_Store"
+  },
+  {
+    "revision": "9aee42534f6396daed9098a2fd488a66",
+    "url": "assets/img/images/screenshot.png"
   },
   {
     "revision": "8327354dbdd9f185fe2ac8365d22825a",
@@ -5720,7 +5728,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/svgs/zhihu.svg"
   },
   {
-    "revision": "833d3ac49aa1a5375b4b7bc525a4ae24",
+    "revision": "711ec8164fa242f7741da683e2d9c243",
     "url": "index.html"
   },
   {
