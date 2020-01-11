@@ -38,6 +38,7 @@
     "workbox-webpack-plugin": "^4.3.1"
   },
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "html-critical-webpack-plugin": "^2.1.0",
     "html-webpack-template": "^6.2.0",
     "notyf": "^3.1.0",

@@ -3,12 +3,15 @@ import {
 } from './core/features.js';
 import '../css/override.css';
 import '../css/styles.css';
+import '../css/modal.css';
 import {
     Notyf
 } from 'notyf';
 import 'notyf/notyf.min.css'; // for React and Vue
 const notyf = new Notyf();
 import '@fortawesome/fontawesome-free/js/all';
+
+import 'bootstrap/js/dist/modal';
 
 async function load() {
     let paramater = getUrlVars()["payment"];
