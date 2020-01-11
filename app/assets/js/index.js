@@ -23,14 +23,14 @@ async function load() {
     (function () {
         var stripe = Stripe('pk_live_DG2IMIp7QYpSiuiTFvQI7ZFW00OEARkk0s');
 
-        var checkoutButton = document.getElementById('checkout-button-plan_GWbd9KCOQsUS60');
+        var checkoutButton = document.getElementById('checkout-button-plan_GWiDO5WS3j8fNG');
         checkoutButton.addEventListener('click', function () {
             // When the customer clicks on the button, redirect
             // them to Checkout.
             notyf.success('Loading Stripe...');
             stripe.redirectToCheckout({
                     items: [{
-                        sku: 'plan_GWbd9KCOQsUS60',
+                        sku: 'plan_GWiDO5WS3j8fNG',
                         quantity: 1
                     }],
                     successUrl: 'https://removemyporn.com?payment=success',
