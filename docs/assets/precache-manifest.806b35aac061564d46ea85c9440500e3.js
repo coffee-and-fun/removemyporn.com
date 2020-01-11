@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a9b799e2837ca681489854b452c5c46",
+    "revision": "aa460a6e168215a09a1a81d902e5bce1",
     "url": "404.html"
   },
   {
@@ -8,11 +8,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "CNAME"
   },
   {
-    "revision": "70dfd4f64f24ec0d1ce1",
+    "revision": "ce8efd00ae55e8da1b7f",
     "url": "app.bundle.js"
   },
   {
-    "revision": "70dfd4f64f24ec0d1ce1",
+    "revision": "ce8efd00ae55e8da1b7f",
     "url": "app.css"
   },
   {
@@ -80,7 +80,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/img/images/screenshot.png"
   },
   {
-    "revision": "8327354dbdd9f185fe2ac8365d22825a",
+    "revision": "9fabbbbb43edf2c2d206973a6b4d27ac",
     "url": "assets/img/logos/.DS_Store"
   },
   {
@@ -5780,7 +5780,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/videos/loader.webm"
   },
   {
-    "revision": "1cbcb567f1a99a0ef0f87cf49612cf22",
+    "revision": "0b93c17d4c2472bfcca727a974de5331",
     "url": "index.html"
   },
   {
@@ -5808,7 +5808,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "updates.html"
   },
   {
-    "revision": "344a0a6a70037d6f090c38210e9826e7",
+    "revision": "ab5def6f0cf005aa665f1e0a4b6e6d4c",
     "url": "welcome.html"
   }
 ]);

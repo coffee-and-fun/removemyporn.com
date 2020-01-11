@@ -32,10 +32,7 @@ async function load() {
             // them to Checkout.
             notyf.success('Loading Stripe...');
             stripe.redirectToCheckout({
-                    items: [{
-                        sku: 'plan_GWiDO5WS3j8fNG',
-                        quantity: 1
-                    }],
+                items: [{plan: 'plan_GWiDO5WS3j8fNG', quantity: 1}],
                     successUrl: 'https://removemyporn.com?payment=success',
                     cancelUrl: 'https://removemyporn.com/?payment=canceled',
                 })
@@ -46,6 +43,37 @@ async function load() {
                 });
         });
     })();
+
+
+
+    (function() {
+        var stripe2 = Stripe('pk_live_DG2IMIp7QYpSiuiTFvQI7ZFW00OEARkk0s');
+      
+        var checkoutButton2 = document.getElementById('checkout-button-plan_GWkfQn9TjE83kD');
+        checkoutButton2.addEventListener('click', function () {
+          // When the customer clicks on the button, redirect
+          // them to Checkout.
+          notyf.success('Loading Stripe...');
+          stripe2.redirectToCheckout({
+            items: [{plan: 'plan_GWkfQn9TjE83kD', quantity: 1}],
+      
+            // Do not rely on the redirect to the successUrl for fulfilling
+            // purchases, customers may not always reach the success_url after
+            // a successful payment.
+            // Instead use one of the strategies described in
+            // https://stripe.com/docs/payments/checkout/fulfillment
+            successUrl: 'https://removemyporn.com?payment=success',
+            cancelUrl: 'https://removemyporn.com/?payment=canceled',
+          })
+          .then(function (result) {
+
+                if (result.error) {
+                    notyf.error(result.error.message);
+                }
+            
+          });
+        });
+      })();
 
 
 }
