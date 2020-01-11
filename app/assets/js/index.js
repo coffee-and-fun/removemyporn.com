@@ -33,11 +33,6 @@ async function load() {
                         sku: 'plan_GWbd9KCOQsUS60',
                         quantity: 1
                     }],
-                    // Do not rely on the redirect to the successUrl for fulfilling
-                    // purchases, customers may not always reach the success_url after
-                    // a successful payment.
-                    // Instead use one of the strategies described in
-                    // https://stripe.com/docs/payments/checkout/fulfillment
                     successUrl: 'https://removemyporn.com?payment=success',
                     cancelUrl: 'https://removemyporn.com/?payment=canceled',
                 })

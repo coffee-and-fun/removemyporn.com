@@ -33,6 +33,7 @@ module.exports = {
 
     new CopyPlugin([
       { from: 'assets/img', to: 'assets/img/' },
+      { from: 'assets/videos', to: 'assets/videos/' },
       { from: 'CNAME', to: '' },
       { from: 'robots.txt', to: '' },
       { from: '404.html', to: '' },
