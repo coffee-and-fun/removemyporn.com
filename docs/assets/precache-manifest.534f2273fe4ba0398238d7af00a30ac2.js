@@ -5776,7 +5776,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "updates.html"
   },
   {
-    "revision": "4aaa895f81fa94b4c3524b550e6b823f",
+    "revision": "3c52c0dddff95e3c60ab2cf6f14f8021",
     "url": "welcome.html"
   }
 ]);
