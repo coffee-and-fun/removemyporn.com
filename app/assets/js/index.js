@@ -23,14 +23,14 @@ async function load() {
     (function () {
         var stripe = Stripe('pk_live_DG2IMIp7QYpSiuiTFvQI7ZFW00OEARkk0s');
 
-        var checkoutButton = document.getElementById('checkout-button-sku_GM90b9Aye3tpwj');
+        var checkoutButton = document.getElementById('checkout-button-plan_GWbd9KCOQsUS60');
         checkoutButton.addEventListener('click', function () {
             // When the customer clicks on the button, redirect
             // them to Checkout.
             notyf.success('Loading Stripe...');
             stripe.redirectToCheckout({
                     items: [{
-                        sku: 'sku_GM90b9Aye3tpwj',
+                        sku: 'plan_GWbd9KCOQsUS60',
                         quantity: 1
                     }],
                     // Do not rely on the redirect to the successUrl for fulfilling

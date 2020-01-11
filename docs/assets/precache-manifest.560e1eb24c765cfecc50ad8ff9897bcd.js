@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "CNAME"
   },
   {
-    "revision": "070a1e80765f8244f9b4",
+    "revision": "6043d173481ddbfbcf49",
     "url": "app.bundle.js"
   },
   {
-    "revision": "070a1e80765f8244f9b4",
+    "revision": "6043d173481ddbfbcf49",
     "url": "app.css"
   },
   {
-    "revision": "0f977a641c2559b9ca75fc1e334728f7",
+    "revision": "ea8aa3ec5b9fbd345cdcc8c20d00648f",
     "url": "assets/img/.DS_Store"
   },
   {
@@ -5728,7 +5728,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/svgs/zhihu.svg"
   },
   {
-    "revision": "711ec8164fa242f7741da683e2d9c243",
+    "revision": "5475d2b88315a1742c27163d7f036c88",
     "url": "index.html"
   },
   {
