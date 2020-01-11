@@ -5780,7 +5780,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/videos/loader.webm"
   },
   {
-    "revision": "92705b2b200e2877091e8d279fd121bd",
+    "revision": "1cbcb567f1a99a0ef0f87cf49612cf22",
     "url": "index.html"
   },
   {
