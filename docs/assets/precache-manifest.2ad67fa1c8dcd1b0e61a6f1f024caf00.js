@@ -24,38 +24,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/img/favicon.ico"
   },
   {
-    "revision": "5d57ee1fe4c2fd071db82cf5976f5753",
-    "url": "assets/img/home/.DS_Store"
-  },
-  {
-    "revision": "5c62b9c99a1f5f6be0f309294da258f0",
-    "url": "assets/img/home/after.png"
-  },
-  {
-    "revision": "7f93e0d4941a38210a1e7b7ff55f3803",
-    "url": "assets/img/home/before.png"
-  },
-  {
-    "revision": "ee894c896085aa9b38979bcc3c7e0d11",
-    "url": "assets/img/home/chrome.png"
-  },
-  {
-    "revision": "550f7bb7e566c83bfa9caec08878c7be",
-    "url": "assets/img/home/compare.png"
-  },
-  {
-    "revision": "671995cb4d6799f6880239a2ec48cd70",
-    "url": "assets/img/home/edge.png"
-  },
-  {
-    "revision": "a5ecbf678f507f781a51572ff2fded22",
-    "url": "assets/img/home/edge.webp"
-  },
-  {
-    "revision": "bd40e9a43ef5cbed9e184d19f873fa0d",
-    "url": "assets/img/home/firefox.png"
-  },
-  {
     "revision": "a6d0d3b3d21c9ed76d3fa1be292ac03a",
     "url": "assets/img/images/.DS_Store"
   },
@@ -78,6 +46,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9aee42534f6396daed9098a2fd488a66",
     "url": "assets/img/images/screenshot.png"
+  },
+  {
+    "revision": "b0b5040474cc69e6117a4f9e60c2d714",
+    "url": "assets/img/images/screenshot_1.png"
+  },
+  {
+    "revision": "950eb93c9ded237aa4a79aac0408d5e1",
+    "url": "assets/img/images/screenshot_2.png"
+  },
+  {
+    "revision": "3db7bfc5462a3e486ffc8f9d5a75d74c",
+    "url": "assets/img/images/screenshot_3.png"
+  },
+  {
+    "revision": "a261fd23be20d7bdc243b70fb175e164",
+    "url": "assets/img/images/screenshot_4.png"
+  },
+  {
+    "revision": "b05f529610f68b6bb1a729f1d8a60a8b",
+    "url": "assets/img/images/screenshot_5.png"
+  },
+  {
+    "revision": "74fba38feae05d22630ac08eb4b0cd0d",
+    "url": "assets/img/images/screenshot_6.png"
+  },
+  {
+    "revision": "754731bdf8c89e45727daf0a56b92ea9",
+    "url": "assets/img/images/screenshot_7.png"
   },
   {
     "revision": "9fabbbbb43edf2c2d206973a6b4d27ac",
@@ -5780,7 +5776,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/videos/loader.webm"
   },
   {
-    "revision": "0b93c17d4c2472bfcca727a974de5331",
+    "revision": "6813f48f640c9b7a9939683a7046147f",
+    "url": "assets/videos/loader2.webm"
+  },
+  {
+    "revision": "88e416841f430f228a61d88c0caf4b52",
     "url": "index.html"
   },
   {
