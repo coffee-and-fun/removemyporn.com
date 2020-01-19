@@ -12,6 +12,7 @@ const paths = [
   '/terms',
   '/welcome',
   '/updates',
+  '/pricing',
   '/privacy',
 ];
 

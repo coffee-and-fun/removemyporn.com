@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa460a6e168215a09a1a81d902e5bce1",
+    "revision": "bc4d7607805af7442708357f6bd3d7f1",
     "url": "404.html"
   },
   {
@@ -5780,7 +5780,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/videos/loader2.webm"
   },
   {
-    "revision": "88e416841f430f228a61d88c0caf4b52",
+    "revision": "61aedcf0958f700fd2173fc7ab240471",
     "url": "index.html"
   },
   {
@@ -5792,11 +5792,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "robots.txt"
   },
   {
-    "revision": "3b3fc8ab66ce85798e545be49e5e2f7f",
+    "revision": "dbcc9aa942139cd527f2c7f658233021",
     "url": "sitemap.xml"
   },
   {
-    "revision": "71a425ef31ae07993f1ce1ff54022340",
+    "revision": "0386f62afc53b6a4a1108d433cc1d382",
     "url": "sitemap.xml.gz"
   },
   {
@@ -5804,11 +5804,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "terms.html"
   },
   {
-    "revision": "d675951be65dd2183bc6e7dc1afcb63b",
+    "revision": "94dc8c56a846591c427ac08a63dea522",
     "url": "updates.html"
   },
   {
-    "revision": "ab5def6f0cf005aa665f1e0a4b6e6d4c",
+    "revision": "9ac9bc498978ddb9b9123f91ceb92ea9",
     "url": "welcome.html"
   }
 ]);
