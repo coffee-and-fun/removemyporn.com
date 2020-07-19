@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc4d7607805af7442708357f6bd3d7f1",
+    "revision": "3e805d3ad358f183a7151d4d92b246aa",
     "url": "404.html"
   },
   {
@@ -8,12 +8,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "CNAME"
   },
   {
-    "revision": "ce8efd00ae55e8da1b7f",
+    "revision": "b0b795ba80d460002346",
     "url": "app.bundle.js"
   },
   {
-    "revision": "ce8efd00ae55e8da1b7f",
+    "revision": "b0b795ba80d460002346",
     "url": "app.css"
+  },
+  {
+    "revision": "013759a1e716e860cc622a33d1a58e0a",
+    "url": "assets/fonts/lexend/.DS_Store"
+  },
+  {
+    "revision": "9a40fffdc8f24055e40c49cb7f716f10",
+    "url": "assets/fonts/lexend/lexend-deca.woff2"
+  },
+  {
+    "revision": "2a13157dd53c99dbb4bf5c59f0aa2263",
+    "url": "assets/fonts/lexend/lexend-exa.woff2"
+  },
+  {
+    "revision": "13fcca7a723cb62ba2f38f6d7e1e7c4d",
+    "url": "assets/fonts/lexend/lexend-giga.woff2"
+  },
+  {
+    "revision": "1503a8604b017a446d6f677355edd03c",
+    "url": "assets/fonts/lexend/lexend-mega.woff2"
+  },
+  {
+    "revision": "aa41691fe7a58d6cd0cf1caf59ab6d8f",
+    "url": "assets/fonts/lexend/lexend-meta.woff2"
+  },
+  {
+    "revision": "3e64673dce719744b2d52a4b722dd7ef",
+    "url": "assets/fonts/lexend/lexend-peta.woff2"
+  },
+  {
+    "revision": "d6f74469e5bbded291370effae1bf291",
+    "url": "assets/fonts/lexend/lexend-zetta.woff2"
+  },
+  {
+    "revision": "9a40fffdc8f24055e40c49cb7f716f10",
+    "url": "assets/fonts/lexend/lexend.woff2"
   },
   {
     "revision": "ed68e6f5a325fb0ff64c1f1401f217b5",
@@ -5780,11 +5816,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/videos/loader2.webm"
   },
   {
-    "revision": "61aedcf0958f700fd2173fc7ab240471",
+    "revision": "9b381d50ddcb7946b4cbdaa72a75b5ed",
     "url": "index.html"
   },
   {
-    "revision": "60b991a49a6ca71c77360f7b5e41f647",
+    "revision": "7bacd64e4d22a10f1e5e14bbe99ddb02",
     "url": "privacy.html"
   },
   {
@@ -5792,23 +5828,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "robots.txt"
   },
   {
-    "revision": "dbcc9aa942139cd527f2c7f658233021",
+    "revision": "5533c8688659c0273ae4ccb62b0f29f5",
     "url": "sitemap.xml"
   },
   {
-    "revision": "0386f62afc53b6a4a1108d433cc1d382",
+    "revision": "7963b0b5cfe7f0680e064efb008da5f7",
     "url": "sitemap.xml.gz"
   },
   {
-    "revision": "501dc7a7d5dfa95c402cd63ec94fb105",
+    "revision": "5cbd581c7b96cddb76e7722572a810f9",
     "url": "terms.html"
   },
   {
-    "revision": "94dc8c56a846591c427ac08a63dea522",
+    "revision": "f4986da7a50ce407dbe94ca1ff29cadb",
     "url": "updates.html"
   },
   {
-    "revision": "9ac9bc498978ddb9b9123f91ceb92ea9",
+    "revision": "04eb0c6a91e672a92011a55a3171b514",
     "url": "welcome.html"
   }
 ]);

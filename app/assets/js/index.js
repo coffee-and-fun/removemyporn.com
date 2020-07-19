@@ -10,7 +10,9 @@ import {
 import 'notyf/notyf.min.css'; // for React and Vue
 const notyf = new Notyf();
 import '@fortawesome/fontawesome-free/js/all';
-
+import {
+    loadStripe
+} from '@stripe/stripe-js';
 import 'bootstrap/js/dist/modal';
 
 async function load() {
@@ -22,58 +24,46 @@ async function load() {
         notyf.error('Your payment was canceled.')
     }
 
+    const stripe = await loadStripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu');b
 
-    (function () {
-        var stripe = Stripe('pk_live_DG2IMIp7QYpSiuiTFvQI7ZFW00OEARkk0s');
-
-        var checkoutButton = document.getElementById('checkout-button-plan_GWiDO5WS3j8fNG');
-        checkoutButton.addEventListener('click', function () {
-            // When the customer clicks on the button, redirect
-            // them to Checkout.
-            notyf.success('Loading Stripe...');
-            stripe.redirectToCheckout({
-                items: [{plan: 'plan_GWiDO5WS3j8fNG', quantity: 1}],
-                    successUrl: 'https://removemyporn.com?payment=success',
-                    cancelUrl: 'https://removemyporn.com/?payment=canceled',
-                })
-                .then(function (result) {
-                    if (result.error) {
-                        notyf.error(result.error.message);
-                    }
-                });
-        });
-    })();
+    let buyButton = document.getElementsByClassName('stripe-buy-button');
 
 
+    if (buyButton.length !== 0) {
 
-    (function() {
-        var stripe2 = Stripe('pk_live_DG2IMIp7QYpSiuiTFvQI7ZFW00OEARkk0s');
-      
-        var checkoutButton2 = document.getElementById('checkout-button-plan_GWkfQn9TjE83kD');
-        checkoutButton2.addEventListener('click', function () {
-          // When the customer clicks on the button, redirect
-          // them to Checkout.
-          notyf.success('Loading Stripe...');
-          stripe2.redirectToCheckout({
-            items: [{plan: 'plan_GWkfQn9TjE83kD', quantity: 1}],
-      
-            // Do not rely on the redirect to the successUrl for fulfilling
-            // purchases, customers may not always reach the success_url after
-            // a successful payment.
-            // Instead use one of the strategies described in
-            // https://stripe.com/docs/payments/checkout/fulfillment
-            successUrl: 'https://removemyporn.com?payment=success',
-            cancelUrl: 'https://removemyporn.com/?payment=canceled',
-          })
-          .then(function (result) {
 
-                if (result.error) {
-                    notyf.error(result.error.message);
-                }
-            
-          });
-        });
-      })();
+        for (var i = 0; i < a11yCheckers.length; i++) {
+            buyButton[i].addEventListener('click', function () {
+                // When the customer clicks on the button, redirect
+                // them to Checkout.
+                notyf.success('Loading Stripe...');
+                stripe.redirectToCheckout({
+                        items: [{
+                            plan: 'plan_GWiDO5WS3j8fNG',
+                            quantity: 1
+                        }],
+                        successUrl: 'https://removemyporn.com?payment=success',
+                        cancelUrl: 'https://removemyporn.com/?payment=canceled',
+                    })
+                    .then(function (result) {
+                        if (result.error) {
+                            notyf.error(result.error.message);
+                        }
+                    });
+            });
+        }
+
+
+
+    }
+
+
+    var stripe = Stripe('pk_live_DG2IMIp7QYpSiuiTFvQI7ZFW00OEARkk0s');
+
+
+
+
+
 
 
 }

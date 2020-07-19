@@ -14,6 +14,7 @@ const paths = [
   '/updates',
   '/pricing',
   '/privacy',
+    '/privacy',
 ];
 
 module.exports = {
@@ -34,6 +35,7 @@ module.exports = {
     new CopyPlugin([
       { from: 'assets/img', to: 'assets/img/' },
       { from: 'assets/videos', to: 'assets/videos/' },
+      { from: 'assets/fonts', to: 'assets/fonts/' },
       { from: 'CNAME', to: '' },
       { from: 'robots.txt', to: '' },
       { from: '404.html', to: '' },
