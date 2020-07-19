@@ -24,7 +24,7 @@ async function load() {
         notyf.error('Your payment was canceled.')
     }
 
-    const stripe = await loadStripe('pk_live_nEAFiiPwv8dNs2QI1aWIh06o00FWgK5zLu');b
+    const stripe = await loadStripe('pk_live_DG2IMIp7QYpSiuiTFvQI7ZFW00OEARkk0s');b
 
     let buyButton = document.getElementsByClassName('stripe-buy-button');
 
@@ -58,11 +58,7 @@ async function load() {
     }
 
 
-    var stripe = Stripe('pk_live_DG2IMIp7QYpSiuiTFvQI7ZFW00OEARkk0s');
-
-
-
-
+  
 
 
 
