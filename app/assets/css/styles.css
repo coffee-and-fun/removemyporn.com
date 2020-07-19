@@ -338,12 +338,6 @@ body {
     margin-left: 5px
 }
 
-.helperbird_background_a11y {
-    background-image: url(/assets/images/pwa/logo/accessibility-checker.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 140px
-}
 
 .helperbird_background {
     background-image: url(/assets/images/pwa/logo/full.png);

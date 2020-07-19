@@ -32,7 +32,7 @@ async function load() {
     if (buyButton.length !== 0) {
 
 
-        for (var i = 0; i < a11yCheckers.length; i++) {
+        for (var i = 0; i < buyButton.length; i++) {
             buyButton[i].addEventListener('click', function () {
                 // When the customer clicks on the button, redirect
                 // them to Checkout.
