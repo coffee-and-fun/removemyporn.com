@@ -24,7 +24,7 @@ async function load() {
         notyf.error('Your payment was canceled.')
     }
 
-    const stripe = await loadStripe('pk_live_DG2IMIp7QYpSiuiTFvQI7ZFW00OEARkk0s');b
+    const stripe = await loadStripe('pk_live_DG2IMIp7QYpSiuiTFvQI7ZFW00OEARkk0s');
 
     let buyButton = document.getElementsByClassName('stripe-buy-button');
 
@@ -70,9 +70,9 @@ load();
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('/service-worker.js').then(registration => {
-            console.log('SW registered: ', registration);
+         //   console.log('SW registered: ', registration);
         }).catch(registrationError => {
-            console.log('SW registration failed: ', registrationError);
+        //    console.log('SW registration failed: ', registrationError);
         });
     });
 }
