@@ -5824,7 +5824,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "sitemap.xml.gz"
   },
   {
-    "revision": "8ad933a003e6d4c7765301c4493a9e91",
+    "revision": "86f5a2a71b7bd3547336a02bc4744815",
     "url": "updates.html"
   },
   {
