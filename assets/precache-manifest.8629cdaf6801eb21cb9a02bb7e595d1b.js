@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b51af4c6fbac26310249e8bb3639077",
+    "revision": "ab1d09345f8e0b4b6345b3307eece0bb",
     "url": "404.html"
   },
   {
@@ -8,11 +8,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "CNAME"
   },
   {
-    "revision": "f79c691676e610ac4ab1",
+    "revision": "ab9df0ba53a2fe90ef81",
     "url": "app.bundle.js"
   },
   {
-    "revision": "f79c691676e610ac4ab1",
+    "revision": "ab9df0ba53a2fe90ef81",
     "url": "app.css"
   },
   {
@@ -184,7 +184,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/images/social/favicon-96x96.png"
   },
   {
-    "revision": "e59bf244511425fad28a13a1958838fe",
+    "revision": "e3db794cea54832081f8c5b8063d6231",
     "url": "assets/images/social/site.json"
   },
   {
@@ -5804,11 +5804,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "assets/videos/loader.webm"
   },
   {
-    "revision": "af7f8a0856ec1ec1da66a7ccc832cf0d",
+    "revision": "82eb143a9c4b7a2c1ba53babe6ed6e19",
     "url": "index.html"
   },
   {
-    "revision": "9e8881f1ba1ae09eb7fbe39c0e863d3b",
+    "revision": "446f23e06e1131d538bb6bdda01ea7e7",
     "url": "privacy.html"
   },
   {
@@ -5824,11 +5824,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "sitemap.xml.gz"
   },
   {
-    "revision": "65b13eb2b923af53a0e126453e5cefe5",
+    "revision": "8ad933a003e6d4c7765301c4493a9e91",
     "url": "updates.html"
   },
   {
-    "revision": "11598a4fab6c6a8186be34cd5a77eebd",
+    "revision": "abd5f01caa61e0bd6b4f41b9cb65092f",
     "url": "welcome.html"
   }
 ]);
