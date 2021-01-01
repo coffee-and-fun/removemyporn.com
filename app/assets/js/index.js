@@ -32,7 +32,7 @@ async function load() {
                 notyf.success('Loading Stripe...');
                 stripe
                     .redirectToCheckout({
-                        lineItems: [{price: 'price_1I4gLEKHAPzRdncjND1sJbHC', quantity: 1}],
+                        lineItems: [{price: 'price_1I4mKKKHAPzRdncj9lCZBsPi', quantity: 1}],
                         mode: 'subscription',
                         successUrl: 'https://removemyporn.com?payment=success',
                         cancelUrl: 'https://removemyporn.com/?payment=canceled',
