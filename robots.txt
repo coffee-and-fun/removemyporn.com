@@ -1,6 +1,5 @@
 User-agent: *
-Disallow: 
-Disallow: /404.html
-
-
-Sitemap: https://www.removemyporn.com/sitemap.xml
+Allow: /
+Disallow: /cdn-cgi/
+Disallow: /demo/
+Sitemap: /sitemap.xml
