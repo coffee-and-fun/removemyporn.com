@@ -1,0 +1,62 @@
+{
+	"reviews": [
+        
+            {
+              "name": "Alex J.",
+              "title": "",
+              "review": "The deepfake removal template was easy to fill out and the content was removed within 48 hours.",
+              "isIPad": false,
+              "photo": "https://www.g2.com/assets/icons/anonymous-avatar-teal-5442358efdaaee2bf4111ea7cbc84fdbf94c3d958880b88cf04e4f0d9b9b9d73.svg",
+              "rating": [0, 1, 2, 3, 4]
+            },
+            {
+              "name": "Samantha L.",
+              "title": "",
+              "review": "Downloaded the DMCA template in seconds, submitted it, and got confirmation of removal the next day.",
+              "isIPad": true,
+              "photo": "https://www.g2.com/assets/icons/anonymous-avatar-teal-5442358efdaaee2bf4111ea7cbc84fdbf94c3d958880b88cf04e4f0d9b9b9d73.svg",
+              "rating": [0, 1, 2, 3, 4]
+            },
+            {
+              "name": "Jordan P.",
+              "title": "",
+              "review": "Used the non-consensual image removal template site pulled the photo without any hassle.",
+              "isIPad": false,
+              "photo": "https://www.g2.com/assets/icons/anonymous-avatar-teal-5442358efdaaee2bf4111ea7cbc84fdbf94c3d958880b88cf04e4f0d9b9b9d73.svg",
+              "rating": [0, 1, 2, 3, 4]
+            },
+            {
+              "name": "Chris W.",
+              "title": "",
+              "review": "Grabbed the 3-pack, used it on YouTube and Instagram, and both were taken down fast.",
+              "isIPad": false,
+              "photo": "https://www.g2.com/assets/icons/anonymous-avatar-teal-5442358efdaaee2bf4111ea7cbc84fdbf94c3d958880b88cf04e4f0d9b9b9d73.svg",
+              "rating": [0, 1, 2, 3, 4]
+            },
+            {
+              "name": "Nicole R.",
+              "title": "",
+              "review": "Templates are clear and straightforward   worked perfectly on Reddit right from my iPad.",
+              "isIPad": true,
+              "photo": "https://www.g2.com/assets/icons/anonymous-avatar-teal-5442358efdaaee2bf4111ea7cbc84fdbf94c3d958880b88cf04e4f0d9b9b9d73.svg",
+              "rating": [0, 1, 2, 3, 4]
+            },
+            {
+              "name": "Megan S.",
+              "title": "",
+              "review": "Surprisingly lawyer-like notice without the cost   filled it out in minutes and got a removal notice back quickly.",
+              "isIPad": false,
+              "photo": "https://www.g2.com/assets/icons/anonymous-avatar-teal-5442358efdaaee2bf4111ea7cbc84fdbf94c3d958880b88cf04e4f0d9b9b9d73.svg",
+              "rating": [0, 1, 2, 3, 4]
+            },
+            {
+              "name": "Taylor M.",
+              "title": "",
+              "review": "New site but solid templates   took less than five minutes to complete and send, then content was gone.",
+              "isIPad": true,
+              "photo": "https://www.g2.com/assets/icons/anonymous-avatar-teal-5442358efdaaee2bf4111ea7cbc84fdbf94c3d958880b88cf04e4f0d9b9b9d73.svg",
+              "rating": [0, 1, 2, 3, 4]
+            }
+                  
+	]
+}

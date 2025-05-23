@@ -1,0 +1,65 @@
+{
+	"faq": [
+
+			{
+			  "question": "What is RemoveMyPorn?",
+			  "anwser": "It’s your one-stop shop for instant, fill-in-the-blank takedown letters get PDF and DOCX templates for DMCA, non-consensual image, and deepfake removals without stress."
+			},
+			{
+			  "question": "What templates do you offer?",
+			  "anwser": "We offer DMCA copyright takedown, non consensual image removal (revenge-porn style), and deepfake/AI-generated explicit content removal templates; choose generic versions or platform-specific ones for sites like YouTube, Reddit, and TikTok."
+			},
+			{
+			  "question": "How do I actually use them?",
+			  "anwser": "Buy your template, download the PDF + DOCX instantly, fill in your details & offending URLs, copy-paste into the platform’s report form (or print & email), and chill—platforms have 48 hours to pull it."
+			},
+			{
+			  "question": "How fast will I get my letter?",
+			  "anwser": "Literally instantly once Stripe clears your payment, PDFs and DOCXs hit your inbox immediately. No waiting, no gatekeepers."
+			},
+			{
+			  "question": "What formats do I get?",
+			  "anwser": "You get a PDF (perfect for email attachments & prints) and a fully editable DOCX file for customizing in Word or Google Docs."
+			},
+			{
+			  "question": "Do you keep my personal info?",
+			  "anwser": "Zero storage  we don’t collect names, emails, or IPs; Stripe handles everything, and we never see your data."
+			},
+			{
+			  "question": "Can I use these templates anywhere?",
+			  "anwser": "Absolutely generic templates work on any site accepting DMCA or policy-violation requests, and our platform-specific ones match each service’s exact form fields & policy language."
+			},
+			{
+			  "question": "What if I mess up a fill-in field?",
+			  "anwser": "No sweat—just re-download your template anytime (they never expire) and fix the mistake. Need help? Ping us at support@removemyporn.com."
+			},
+			{
+			  "question": "Do you offer refunds or exchanges?",
+			  "anwser": "Since these are instant digital downloads, we can’t undo a viewed file—but if there’s a legit issue (wrong file or broken link), just message us and we’ll sort it out."
+			},
+			{
+			  "question": "Need custom letters or bulk orders?",
+			  "anwser": "On the hunt for bespoke templates or volume discounts? Contact custom@removemyporn.com and we’ll hook you up."
+			},
+			{
+			  "question": "What’s the Take It Down Act and why does it matter?",
+			  "anwser": "It’s a new federal law banning non consensual intimate content (including AI deepfakes), forcing platforms to remove reported imagery within 48 hours or face penalties—our templates automatically cite this act for max legal weight."
+			},
+
+			{
+				"question": "What if the platform doesn’t comply within 48 hours?",
+				"anwser": "Our templates cite the Take It Down Act, which legally forces platforms to remove reported content in 48 hrs. If they don’t, you can escalate with a follow-up notice or consult an attorney—our generic “escalation” template can help with that too."
+			  },
+			  {
+				"question": "Can I customize these templates?",
+				"anwser": "Totally! You get both PDF and editable DOCX, so you can tweak wording, add personal details, or adjust legal citations before you send."
+			  },
+			  {
+				"question": "How do I know if my content qualifies for removal?",
+				"anwser": "If it’s your copyrighted photo/video, you can use a DMCA notice. If it’s non consensual intimate imagery or a deepfake of you, our policy-violation/deepfake templates apply. When in doubt, pick the closest match or reach out at support@removemyporn.com."
+			  }, {
+				"question": "What if I need help after sending my request?",
+				"anwser": "Hit us up at support@removemyporn.com we’ve got your back. Whether you need tips on follow-ups or help choosing the right escalation path, we’ll guide you free of charge."
+			  }
+	]
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html class="brand-color-background scroll-smooth antialiased" lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>{{ title }} - Coffee & Fun LLC</title>
+	<meta name="description"
+		content="{{ description }}" />
+	<meta name="author" content="Coffee & Fun LLC" />
+	<meta name="robots" content="index, follow" />
+	<meta name="rating" content="safe for kids" />
+
+	<link rel="icon" href="https://www.coffeeandfun.com/assets/images/favicon.png" />
+
+	<meta name="title" content="{{ title }} - Coffee & Fun LLC" />
+    <meta name="keywords" content="{{ keywords }}" />
+
+    <!-- PWA Manifest -->
+<!-- PWA Manifest -->
+<link rel="manifest" href="/assets/images/social/site.webmanifest" />
+
+<!-- Theme & Mobile Meta -->
+<meta name="theme-color" content="#fef5ec" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+<!-- Icons -->
+<link rel="apple-touch-icon" href="/assets/images/social/192.png" />
+<link rel="icon" href="/assets/images/social/192.png" sizes="192x192" type="image/png" />
+<!-- PWA Meta Tags -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="mobile-web-app-capable" content="yes" />
+
+
+<!-- Theme & Mobile Meta -->
+<meta name="theme-color" content="#fef5ec" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+<!-- Icons -->
+<link rel="apple-touch-icon" href="/assets/images/social/192.png" />
+<link rel="icon" href="/assets/images/social/192.png" sizes="192x192" type="image/png" />
+<!-- PWA Meta Tags -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="mobile-web-app-capable" content="yes" />
+
+	<!-- Open Graph Meta Tags -->
+	<meta property="og:title" content="{{ title }} - Coffee & Fun LLC" />
+	<meta property="og:site_name" content="Coffee & Fun LLC" />
+	<meta property="og:url" content="https://www.coffeeandfun.com/{{ page.url | safe }}" />
+	<meta property="og:description"
+		content="{{ description }}" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="https://www.coffeeandfun.com{{img}}" />
+
+	<!-- Twitter Meta Tags -->
+	<meta property="twitter:domain" content="coffeeandfun.com" />
+	<meta property="twitter:url" content="https://www.coffeeandfun.com{{ page.url | safe }}" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="{{ title }} - Coffee & Fun LLC" />
+	<meta name="twitter:site" content="@bycoffeeandfun" />
+
+	<meta name="twitter:description"
+		content="{{ description }}" />
+	<meta name="twitter:image" content="https://www.coffeeandfun.com{{img}}" />
+	<meta name="twitter:image:alt" content=" Coffee & Fun LLC" />
+
+	<script type="application/ld+json">
+			{
+				"@context": "http://schema.org/",
+				"@type": "WebSite",
+				"url": "https://www.coffeeandfun.com",
+				"potentialAction": {
+					"@type": "SearchAction",
+					"target": "{search_term_string}",
+					"query-input": "required name=search_term_string"
+				}
+			}
+		</script>
+
+    	{% bundledCss %}
+
+
+      <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.getRegistrations().then((registrations) => {
+          for (const registration of registrations) {
+            registration.unregister().then(() => {
+            console.log('🧹 Old service worker unregistered');
+            });
+          }
+        
+          // After clearing, register the new one
+          navigator.serviceWorker.register('/service-worker.js')
+            .then(() => console.log('✅ New service worker registered'))
+            .catch((err) => console.log('Service worker error:', err));
+          });
+        }
+        </script>
+
+
+	{% include scripts.html %}
+</head>
+
+<body>
+
+	{% assign showFun = true %}
+	{% assign showMiddleBadge = true %}
+	{% include header.liquid %}
+
+
+	<main id="main-content" class="mx-auto max-w-7xl">
+        <main class="mx-auto max-w-7xl pt-12 pb-12 px-6" id="content">
+            <div class="mx-auto max-w-3xl">
+              <article aria-labelledby="article-title">
+                <header class="flex flex-col">
+                  <div class="flex gap-4">
+                    <a
+                      href="/blog/"
+                      type="button"
+                      aria-label="Go back to articles"
+                      class="btn btn-circle btn-sm btn-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                    >
+                      <svg
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        aria-hidden="true"
+                        stroke="currentColor"
+                        class="h-6 w-6"
+                      >
+                        <path
+                          d="M7.25 11.25 3.75 8m0 0 3.5-3.25M3.75 8h8.5"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
+                  <h1 id="article-title" class="mt-6 text-pretty text-2xl font-bold tracking-tight text-pretty text-black sm:text-4xl">
+                    {{ cardTitle }}
+                  </h1>
+                  <div class="divider"></div>
+      
+                  <div class="flex">
+                    <div class="flex-1 gap-4">
+                      <div class="badge badge-neutral">{{name}}</div>
+                    
+                      <time datetime="{{date | formatDateWithOrdinal }}" class="items-center text-pretty text-base">
+                        <span class="badge badge-neutral">{{date | formatDateWithOrdinal }}</span>
+                      </time>
+                    </div>
+                    <div class="flex-1">
+                      <span class="badge badge-neutral ">{{time}}</span>
+                    </div>
+                  </div>
+                </header>
+      
+                <div class="mt-10">
+                  <img
+                    src="{{img}}"
+                    alt="{{title}}"
+                    class="rounded-3xl mb-10"
+                    title="{{title}}"
+                  />
+      
+                  {{ content | safe }}
+                </div>
+              </article>
+            </div>
+      
+
+          </main>
+
+	</main>
+
+
+
+
+
+	{% include  footer.liquid %}
+
+
+<style>
+
+pre {
+    color: #abb2bf;
+    background: #282c34;
+    overflow: auto;
+    padding: 2rem;
+      border-radius: 1.0rem;
+}
+</style>
+
+</body>
+
+</html>

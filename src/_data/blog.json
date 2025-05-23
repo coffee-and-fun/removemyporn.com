@@ -1,0 +1,165 @@
+{
+	"posts": [
+		{
+			"name": "What Really Happens When You Reverse Engineer a McDonald's Receipt Survey",
+			"description": " We reverse-engineered McDonald's receipt codes to understand how they work and how to generate working survey codes and validation numbers (just for fun).",
+			"link": "/blog/mcdvoice-code-breakdown/",
+			"platform": ["hack"],
+			"image": "/assets/images/blog/mcdvoice-code-breakdown.png"
+		},	
+		{
+			"name": "Introducing Daily Bible Verse for iOS",
+			"description": " Discover Daily Bible Verse — a beautifully simple and spiritual app created to bring one verse a day into your life. Learn why we built it, what it can do, and how it helps you pause and reflect.",
+			"link": "/blog/introducing-daily-bible-verse/",
+			"platform": ["iOs", "iPad"],
+			"image": "/assets/images/blog/daily-bible-verse-app.png"
+		},	
+		{
+			"name": "How to Redeem an App Store Promo Code",
+			"description": " Learn how to redeem an App Store promo code on iPhone, iPad, or Mac with this quick and simple guide. Perfect for unlocking paid apps, games, or subscriptions with ease!",
+			"link": "/blog/how-to-redeem-app-store-promo-code/",
+			"platform": ["Update", "Guide"],
+			"image": "/assets/images/blog/app-store-promo.png"
+		},		{
+			"name": "Scraping 20,000 Poshmark Listings (For Real This Time)",
+			"description": "Back last week, I wrote a blog post titled How I Scraped 20,000 Poshmark Listings Using Node.js and Puppeteer. The idea seemed solid, scroll through a Poshmark closet, grab every listing URL, and scrape each listing one by one. But in reality? The script crashed constantly. It would hang, freeze, or get stuck on a single listing.",
+			"link": "/blog/ethically-scrape-poshmark-listings-node-puppeteer-update/",
+			"platform": ["Company"],
+			"image": "/assets/images/blog/ethically-scrape-poshmark-listings-node-puppeteer.png"
+		},
+		{
+			"name": "How I Scraped 20,000 Poshmark Listings Using Node.js and Puppeteer",
+			"description": "Learn how I scraped and backed up 20,000 listings from a Poshmark store using Node.js and Puppeteer. This guide explains the full process, includes code, and helps you recover public listing data for educational or personal use.",
+			"link": "/blog/ethically-scrape-poshmark-listings-node-puppeteer/",
+			"platform": ["Company"],
+			"image": "/assets/images/blog/ethically-scrape-poshmark-listings-node-puppeteer.png"
+		},
+		{
+			"name": "Delete Your Tweets, Retweets & Likes Without Installing Anything",
+			"description": "Want to clean up your Twitter without giving access to third-party apps? This simple script lets you delete tweets, unretweet, and unlike right from Chrome — and it even pauses to avoid rate limits.",
+			"link": "/blog/delete-tweets-retweets-likes-without-apps/",
+			"platform": ["Company"],
+			"image": "/assets/images/blog/delete-tweets-retweets-likes-without-apps.png"
+		},
+		{
+			"name": "Quarterly Check-In From the Coffee & Fun Coffee Shop",
+			"description": " It’s been a wild and wonderful start to the year at Coffee & Fun. From open source Roomba tools and a Markdown Editor milestone to Hide Spoilers blowing up on iOS — here’s a peek behind the scenes.",
+			"link": "/blog/coffee-and-fun-quarterly-update-spring-2025/",
+			"platform": ["Company"],
+			"image": "/assets/images/blog/coffee-and-fun-quarterly-update-spring-2025.png"
+		},
+
+		{
+			"name": "Apple’s Passwords App Is Surprisingly Great ",
+			"description": "We’ve been using Apple’s new Passwords app at Coffee & Fun, and it’s honestly a game-changer. Here’s why we recommend it to anyone in the Apple ecosystem — and how the Chrome extension makes it even better.",
+			"link": "/blog/apple-passwords-app-review-coffee-and-fun/",
+			"platform": ["Company"],
+			"image": "/assets/images/blog/apple-passwords-app-review-coffee-and-fun.png"
+		},
+		{
+			"name": "How to Skip Movie Trailers Without Missing the Start of the Movie",
+			"description": "At Coffee & Fun, we ran a little experiment to see if we could show up to the movies tjust in time for the opening scene. Turns out, the food pickup time reveals everything. Here’s what we discovered.",
+			"link": "/blog/skip-movie-trailers-trick/",
+			"platform": ["Company"],
+			"image": "/assets/images/blog/skip-movie-trailers-trick.png"
+		},
+		{
+			"name": "How I would Improve the Chrome Web Store",
+			"description": " Join me as I share real, hands-on tips for improving the Chrome Web Store. Everything from more meaningful badges and better review tools to showing genuine user engagement. ",
+			"link": "/blog/how-i-would-improve-chrome-web-store/",
+			"platform": ["Company"],
+			"image": "/assets/images/blog/how-i-would-improve.png"
+		},
+		{
+			"name": "Introducing Hide Spoilers",
+			"description": "Avoid spoilers for your favorite shows, games, and movies with Hide Spoilers Extension. This extension blurs text, images, and sections containing spoilers, offering a stress-free browsing experience.",
+			"link": "/blog/introducing-hide-spoilers/",
+			"platform": ["Company"],
+			"image": "/assets/images/blog/hide-spoilers.png"
+		},
+		{
+			"name": "Our First Thoughts on the Vision Pro ",
+			"description": "The Vision Pro feels like a glimpse into the future, but is it practical for development? We’re testing it at Coffee & Fun LLC to find out.",
+			"link": "/blog/our-first-thoughts-on-the-vision-pro/",
+			"platform": ["Company"],
+			"image": "/assets/images/blog/vision-pro-thoughts.png"
+		},
+		{
+			"name": "How PSA Grades Pokémon Cards",
+			"description": "Coffee & Fun LLC is diving into Pokémon card grading using AI! Learn about PSA's grading process and our research experiment to build an AI-powered card grading estimator with ChatGPT.",
+			"link": "/blog/how-psa-grades-pokemon-cards-research-guide/",
+			"platform": ["Company"],
+			"image": "/assets/images/blog/psa-grading-research.png"
+		},
+		{
+			"name": "What’s Coming for Coffee & Fun LLC in 2025",
+			"description": "Coffee & Fun LLC is gearing up for an exciting 2025! From supporting Helperbird updates to exploring VR, Pokémon grading with AI, 3D printing, and new apps like Step Hero, check out what we’re planning.",
+			"link": "/blog/whats-coming-for-coffee-and-fun-llc-in-2025/",
+			"platform": ["Company"],
+			"image": "/assets/images/blog/2025.png"
+		},
+		{
+			"name": "Say Hello to Auto Pause",
+			"description": "AutoPause is the latest browser extension from Coffee & Fun LLC, designed to let you set a timer and automatically pause your media playback. Discover how this simple extension can make your life a little easier.",
+			"link": "/blog/introducing-autopause-control-your-media/",
+			"platform": ["Web"],
+			"image": "/assets/images/blog/autopause.png"
+		},
+		{
+			"name": "Should You Test in Production?",
+			"description": "Should You Test in Production? A lighthearted nod to every developer's worst (or best) idea, this site redirects to the iconic Bill O'Reilly clip: 'F*** it, we'll do it live!' Because sometimes, that's just how it feels. 😂",
+			"link": "/blog/should-you-test-your-code-in-production/",
+			"platform": ["Web"],
+			"image": "/assets/images/blog/test-in-production.png"
+		},
+		{
+			"name": "What Happens When Redbox Shuts Down? Trying the Redbox Free DVD Hack",
+			"description": "With Redbox shutting down, I tested a curious hack, accessing a kiosk in offline mode to see if DVDs could be rented for free. Dive into what I discovered about Redbox’s kiosks, their connection issues, and how they function when the servers go down.",
+			"link": "/blog/testing-redbox-kiosk-offline-hack-for-free-dvds/",
+			"platform": ["Update", "Hack"],
+			"image": "/assets/images/blog/redbox.png"
+		},
+		{
+			"name": "How to Ethically Hack Woobox Voting with Node.js and Puppeteer",
+			"description": "Learn how to ethically automate voting on Woobox using Node.js and Puppeteer. This guide walks you through creating a voting script for educational purposes, exploring the mechanics of online voting and best practices for securing platforms.",
+			"link": "/blog/ethically-hack-woobox-voting-node-puppeteer/",
+			"platform": ["Update", "Guide"],
+			"image": "/assets/images/blog/woobox.png"
+		},
+		{
+			"name": "How to Change the Battery in an Apple AirTag",
+			"description": "Learn how to easily replace the battery in your Apple AirTag with this simple guide. We'll walk you through each step so you can keep your AirTag working smoothly and your items safely tracked.",
+			"link": "/blog/how-to-change-battery-in-an-apple-airtag/",
+			"platform": ["Social", "Guide"],
+			"image": "/assets/images/blog/airtag.png"
+		},
+
+		{
+			"name": "How to Delete or Deactivate Your Facebook Account ",
+			"description": "Learn how to easily delete or deactivate your Facebook account with this simple, step-by-step guide. Whether you're taking a break or leaving for good, we’ve got you covered!",
+			"link": "/blog/how-to-delete-or-deactivate-your-facebook-account/",
+			"platform": ["Social", "Guide"],
+			"image": "/assets/images/blog/facebook.png"
+		}
+,
+		{
+			"name": "How to Replace the Battery in Your Nintendo Switch",
+			"description": "Is your Nintendo Switch not holding its charge like it used to? It's probably time to replace that battery. While it might sound tricky, I'll walk you through every single step, with detailed instructions on the screws and parts you'll encounter along the way!",
+			"link": "/blog/how-to-replace-the-battery-in-your-nintendo-switch/",
+			"platform": ["Social", "Guide"],
+			"image": "/assets/images/blog/switch-battery.png"
+		}
+
+		,
+		{
+			"name": "ProcrastiNOT Update - The Maths Challenge is Here! 🎉",
+			"description": "We’re excited to roll out a fresh new update for ProcrastiNOT, bringing in a fun twist and some polish to keep things sharp. Let’s break down what’s new!",
+			"link": "/blog/procrastinot-maths-challenge-update/",
+			"platform": ["Update", "Guide"],
+			"image": "/assets/images/blog/maths-update.png"
+		}
+
+
+		
+	]
+}

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html class="brand-color-background scroll-smooth antialiased" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Coffee & Fun LLC - Crafting Software, One Brew at a Time</title>
+    <meta
+      name="description"
+      content="Explore Coffee & Fun LLC, a 2020-founded hub of digital innovation led by Robert James Gabriel. Specializing in unique software solutions, including the popular Incognito Bear app, our team excels in creating apps and browser extensions that enhance user experience. Focused on accessibility and user-friendly design, we're dedicated to enriching your digital life with practical yet joyful innovations. Discover our range of products, each designed with the aim of making the digital world more accessible and enjoyable"
+    />
+    <meta name="author" content="Coffee & Fun LLC" />
+    <meta name="robots" content="index, follow" />
+    <meta name="rating" content="safe for kids" />
+
+    <link rel="icon" href="/assets/images/favicon.png" />
+
+    <meta
+      name="title"
+      content="Coffee & Fun LLC - Crafting Software, One Brew at a Time"
+    />
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/assets/images/social/site.webmanifest" />
+
+    <!-- Theme & Mobile Meta -->
+    <meta name="theme-color" content="#fef5ec" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" href="/assets/images/social/192.png" />
+    <link
+      rel="icon"
+      href="/assets/images/social/192.png"
+      sizes="192x192"
+      type="image/png"
+    />
+    <!-- PWA Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="Coffee & Fun LLC - Crafting Software, One Brew at a Time"
+    />
+    <meta property="og:site_name" content="Coffee & Fun" />
+    <meta property="og:url" content="https://www.coffeeandfun.com/" />
+    <meta
+      property="og:description"
+      content="Explore Coffee & Fun LLC, a 2020-founded hub of digital innovation led by Robert James Gabriel. Specializing in unique software solutions, including the popular Incognito Bear app, our team excels in creating apps and browser extensions that enhance user experience. Focused on accessibility and user-friendly design, we're dedicated to enriching your digital life with practical yet joyful innovations. Discover our range of products, each designed with the aim of making the digital world more accessible and enjoyable"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assets/images/social-icon.png" />
+
+    <!-- Twitter Meta Tags -->
+    <meta property="twitter:domain" content="coffeeandfun.com" />
+    <meta property="twitter:url" content="https://www.coffeeandfun.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Coffee & Fun LLC - Crafting Software, One Brew at a Time"
+    />
+    <meta name="twitter:site" content="@bycoffeeandfun" />
+    <meta
+      name="twitter:description"
+      content="Explore Coffee & Fun LLC, a 2020-founded hub of digital innovation led by Robert James Gabriel. Specializing in unique software solutions, including the popular Incognito Bear app, our team excels in creating apps and browser extensions that enhance user experience. Focused on accessibility and user-friendly design, we're dedicated to enriching your digital life with practical yet joyful innovations. Discover our range of products, each designed with the aim of making the digital world more accessible and enjoyable"
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.coffeeandfun.com/assets/images/social-icon.png"
+    />
+    <meta name="twitter:image:alt" content=" Coffee & Fun" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "WebSite",
+        "url": "https://www.coffeeandfun.com",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "{search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+
+    //{% bundledCss %}
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.getRegistrations().then((registrations) => {
+          for (const registration of registrations) {
+            registration.unregister().then(() => {
+              console.log("🧹 Old service worker unregistered");
+            });
+          }
+
+          // After clearing, register the new one
+          navigator.serviceWorker
+            .register("/service-worker.js")
+            .then(() => console.log("✅ New service worker registered"))
+            .catch((err) => console.log("Service worker error:", err));
+        });
+      }
+    </script>
+
+    {% include scripts.html %}
+  </head>
+
+  <body>
+    {% assign showFun = true %} {% assign showMiddleBadge = false %} {% include
+    header.liquid %}
+
+    <main id="main-content" class="mx-auto max-w-7xl">
+      <div class="mb-16 mt-16 sm:mb-24 sm:mt-24 sm:px-8">
+        <div class="mx-auto max-w-7xl lg:px-8">
+          <div class="relative px-12 sm:px-8 lg:px-12">
+            <div class="mx-auto max-w-7xl">
+              <div class="mx-auto mb-4 mt-4">
+                <a href="/" title="Go Back to Coffee & Fun's Homepage">
+                  <img
+                    alt="An illustration of a smiling person with short brown hair holding a gray laptop; on the screen is a red “no” circle-and-slash over two abstract shapes, and an orange shield forms the background."
+                    src="/assets/images/logo.png"
+                    width="100"
+                    height="100"
+                    decoding="async"
+                    data-nimg="future"
+                    loading="lazy"
+                    class="aspect-square block"
+                  />
+                </a>
+                <h1
+                  class="text-4xl font-bold tracking-tight tsm:text-5xl text-black"
+                >
+                  Get Your Revenge Porn Takedown in 48 hrs
+                </h1>
+
+                <p class="mt-6 text-lg text-black">
+                  Instantly grab your fill in the blank takedown letter (PDF +
+                  DOCX), pop in your name & URL, hit send and platforms have
+                  just 48 hrs to pull that unwanted content or face legal
+                  penalties.
+                </p>
+                <a href="/#apps" class="btn btn-primary btn-lg mt-6">
+                  <span class="text-lg">Get Started</span>
+                </a>
+              </div>
+
+              <div
+                class="max-w-8xl text-pretty text-base mx-auto my-8"
+                id="apps"
+              >
+                <div class="card my-24">
+                  <div class="my-8">
+                    <h2
+                      class="card-title mb-4 text-black text-4xl font-medium tracking-tighter text-pretty"
+                    >
+                      Our Templates
+                    </h2>
+                    <p class="text-pretty text-lg mb-10 text-black">
+                      Pick your fill-in-the-blank takedown letter, swap in your
+                      details, and send, our instant PDF+DOCX templates cover
+                      DMCA claims, non consensual images, and deepfake removals,
+                      all backed by the Take It Down Act’s 48-hour rule.
+                    </p>
+
+                    <div
+                      class="flex overflow-x-auto snap-x snap-mandatory scroll-smooth gap-6 px-4 pb-8"
+                    >
+                      {% for file in documents.files %}
+                      <div class="shrink-0 snap-start w-[20rem]">
+                        <a
+                          class="min-h-[30rem] flex flex-col justify-between h-full card card-compact bg-white text-black shadow-md transition-all duration-200 hover:-translate-y-1 rounded-4xl"
+                          target="_blank"
+                          href="{{ file.link }}"
+                        >
+                          <figure class="px-4 pt-4">
+                            <img
+                              loading="lazy"
+                              src="{{ file.image }}"
+                              class="rounded-2xl border border-base-content border-opacity-5 bg-base-300"
+                              alt="{{ file.name }}"
+                            />
+                          </figure>
+                          <div
+                            class="card-body flex flex-col justify-between flex-grow"
+                          >
+                            <div>
+                              <h2 class="card-title">{{ file.name }}</h2>
+                              <p class="text-base">{{ file.description }}</p>
+                            </div>
+                            <div class="flex flex-wrap gap-2 mt-6">
+                              <button class="btn btn-primary btn-lg btn-wide">
+                                Buy it now
+                              </button>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+			  {% include templates/reviews.liquid %}
+
+              <div class="max-w-8xl text-pretty text-base mx-auto" id="apps">
+                <div
+                  class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40"
+                >
+                  <div class="mx-auto max-w-4xl">
+                    <h2
+                      class="text-4xl font-semibold text-gray-900 sm:text-5xl"
+                    >
+                      Frequently asked questions
+                    </h2>
+                    <dl class="mt-16 divide-y divide-gray-900/10">
+                      {% for question in questions.faq %}
+
+                      <div
+                        tabindex="0"
+                        class="collapse collapse-arrow text-black bg-white mb-4"
+                      >
+                        <div class="collapse-title text-xl font-semibold">
+                          {{ question.question}}
+                        </div>
+                        <div class="collapse-content text-lg">
+                          {{ question.anwser}}
+                        </div>
+                      </div>
+
+                      {% endfor %}
+                    </dl>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    {% include footer.liquid %}
+  </body>
+</html>

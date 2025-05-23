@@ -17,6 +17,10 @@ module.exports = {
 	module: {
 		rules: [
 			{
+				test: /\.styl(us)?$/,
+				use: ["style-loader", "css-loader", "stylus-loader"],
+			  },
+			{
 				test: /\.mp4$/,
 				use: 'file-loader?name=videos/[name].[ext]'
 			},
@@ -58,15 +62,13 @@ module.exports = {
 			{
 				test: /\.css$/,
 				use: [
+					"style-loader",
+					"css-loader",
 					{
-						loader: MiniCssExtractPlugin.loader,
-						options: {
-							esModule: false
-						}
+					  loader: "postcss-loader",
+					
 					},
-					'css-loader',
-					'postcss-loader'
-				]
+				  ],
 			}
 		]
 	},
